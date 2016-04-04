@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "src/content/progress-bar.css",
+    "inputFile": "src/content/progress-bar.less"
+  },
+  {
+    "outputFile": "Content/progress-bar/progress-bar.css",
+    "inputFile": "Content/progress-bar/progress-bar.less"
+  }
+]

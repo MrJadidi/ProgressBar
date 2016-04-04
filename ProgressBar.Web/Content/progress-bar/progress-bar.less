@@ -1,0 +1,46 @@
+﻿@padding-px: 25;
+@border-color: #908F8F;
+@progress-bar-border: #A9A6A6;
+@progress-bar-color: #AEE1FF;
+@progress-bar-err-color: #ce4646;
+@progress-bar-height: 30px;
+
+#content {
+    width: @padding-px*1%;
+    padding: @padding-px*1px;
+    text-align: center;
+    border: 1px solid @border-color;
+    border-radius: (@padding-px/5)*1px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: @progress-bar-height;
+    border: 1px solid @progress-bar-border;
+    text-align: center;
+    margin: (@progress-bar-height/6) 0 (@progress-bar-height/6) 0;
+    line-height: 0;
+    font-size: (@progress-bar-height/2);
+}
+
+.progress-bar .bar {
+    width: 0;
+    height: @progress-bar-height;
+    background-color: @progress-bar-color;
+}
+
+.err{
+    background-color:@progress-bar-err-color !important;
+}
+.progress-bar p {
+    position: relative;
+    top: @progress-bar-height*-1px;
+}
+
+#select-progress {
+}
+
+#navigator {
+    text-align: left;
+    margin-top: (@progress-bar-height/2);
+}

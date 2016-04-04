@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Progress Bars Demo</title>
+    <link href="../../Content/progress-bar/progress-bar.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div id="content">
+        <h3>Progress Bars Demo</h3>
+        <div class="progress-bar" id="progress1">
+            <div class="bar"></div>
+            <p>0%</p>
+        </div>
+        <div class="progress-bar" id="progress2">
+            <div class="bar"></div>
+            <p>0%</p>
+        </div>
+        <div class="progress-bar" id="progress3">
+            <div class="bar"></div>
+            <p>0%</p>
+        </div>
+        <div id="navigator">
+            <select id="select-progress">
+                <option value="progress1" selected>#progress1</option>
+                <option value="progress2">#progress2</option>
+                <option value="progress3">#progress3</option>
+            </select>
+            <button class="submit-progressbar" id="min25" data-value="-25">-25</button>
+            <button class="submit-progressbar" id="min10" data-value="-10">-10</button>
+            <button class="submit-progressbar" id="plus10" data-value="+10">+10</button>
+            <button class="submit-progressbar" id="plus25" data-value="+25">+25</button>
+        </div>
+    </div>
+    <script src="../../Scripts/jquery-1.10.2.min.js"></script>
+    <script src="../../Scripts/progress-bar/progress-bar.js"></script>
+    <script src="../../Scripts/application/function.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+[
+  {
+    "outputFileName": "Scripts/progress-bar/progress-bar.js",
+    "inputFiles": [
+      "Scripts/progress-bar/progress-bar.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/application/function.js",
+    "inputFiles": [
+      "Scripts/application/function.js"
+    ]
+  }
+]
